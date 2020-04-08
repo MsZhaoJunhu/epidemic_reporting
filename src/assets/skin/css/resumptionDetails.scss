@@ -1,0 +1,217 @@
+td{
+    font-size: 14px;
+}
+.resumptionDetails-table{
+    width: 100%;
+}
+.resumptionDetails-table tr{
+    width: 100%;
+    display: block;
+    margin: 0.75rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.td-white{
+    display: inline-block;
+    width: 30%;
+    white-space: nowrap;
+}
+.td-no-white{
+    display: inline-block;
+    width: 70%;
+}
+.resumptionDetails-tr-tdColor .resumptionDetails-colorRed{
+    color: red !important;
+}
+.resumptionDetails-tr-tdColor .td-no-white{
+    color: rgb(34, 219, 117);
+}
+.lineHeight{
+    line-height: 1.5rem;
+}
+.resumptionDetails-table2{
+    width: 100%;
+}
+.resumptionDetails-table2 tr{
+    width: 100%;
+    display: block;
+    margin: 0.75rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.resumptionDetails-table2 tr>td:first-child{
+    // display: inline-block;
+    width: 30%;
+    white-space: nowrap;
+}
+.resumptionDetails-table2 tr>td:last-child{
+    // display: inline-block;
+    width: 70%;
+    white-space: pre-wrap;
+}
+.resumptionDetails-table2 tr td{
+    display: flex;
+    align-items: center;
+    white-space: normal !important;
+}
+.start::before{
+    content: '*';
+    color: red;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateX(-0.5rem);
+}
+.start-null::before{
+    content: '*';
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 0;
+    transform: translateX(-0.5rem);
+}
+.resumptionDetails-table2 .resumptionDetails-tr-tdColor .td-no-white{
+    color: #000;
+}
+.resumptionDetails-img-par{
+    min-height: 6rem;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+    margin-top: 0.5rem;
+}
+.resumptionDetails-img-par div{
+    width: calc(91%/3);
+    margin-right: 3%;
+}
+.resumptionDetails-img-par img{
+    width: 100%;
+    margin: 0.25rem 0;
+}
+.resumptionDetails-img-par p{
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.resumptionDetails-imgDiv-par{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background: #fff;
+    border-top: 1px solid rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.resumptionDetails-table+.resumptionDetails-table{
+    margin-top: 1rem;
+}
+
+
+.resumptionDetails-table{
+    display: flex;
+    flex-direction: column;
+}
+.resumptionDetails-table>div{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    line-height: 3rem;
+    background: #fff;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.resumptionDetails-table>div:first-child{
+    border-top: 1px solid rgb(235, 235, 235);
+}
+.resumptionDetails-table>div>input{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+}
+.resumption-fir-td{
+    width: auto;
+    text-align: left;
+    transform: translateX(1rem);
+}
+.resumption-firsec-td,.resumption-sec-td{
+    width: auto;
+    max-width: 62%;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding-right: 1rem;
+}
+.resumption-sec-td input{
+    width: auto;
+    padding: 0;
+    height: 40px;
+}
+.colorHuiSe{
+    color: #999;
+}
+.nut-actionsheet{
+    position: absolute;
+}
+.resumption-special-par,.resumption-special-submitPar{
+    flex-direction: column;
+    border-top: 1px solid rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(235, 235, 235);
+    padding-top: 1rem;
+    background: #fff;
+}
+.resumption-special-submitPar{
+    padding-bottom: 1rem;
+}
+.resumption-special-submitPar .resumption-sec-div>div,
+.resumption-special-submitPar .resumption-sec-div .img-list{
+    width: 100%;
+    padding: 0 1rem;
+}
+.resumption-special-marginTop{
+    margin-top: 0.5rem;
+}
+.resumption-special-par div{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.resumption-special-par>div:last-child{
+    padding: 0 1rem;
+}
+.resumption-special-par>div:last-child textarea{
+    width: 100%;
+    border: 0;
+    background: #fff;
+    text-indent: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+.resumption-special-submitPar>span{
+    display: flex;
+    width: 100%;
+    padding: 0 1rem;
+    justify-content: space-between;
+}
+.resumption-special-aPar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.resumptionDetails-table h6{
+    // line-height: 3rem;
+    font-size: 1rem;
+    transform: translateX(1rem);
+    color: rgb(82, 81, 81);
+    margin-bottom: 1rem;
+}
+.resumptionDetails-table h6::before{
+    content: '|';
+    color: #5a80d1;
+}
+.ts-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}

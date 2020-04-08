@@ -1,0 +1,107 @@
+h6{
+    font-size: 16px;
+}
+.resumption-table{
+    width:100%;
+}
+.resumption-fir-td{
+    width: 30%;
+    text-align: center;
+    line-height: 3rem;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.resumption-start::before{
+    content: '*';
+    color: red;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateX(-0.5rem);
+}
+.resumption-firsec-td{
+    font-size: 14px;
+}
+.resumption-sec-td input,.resumption-sec-td select{
+    width: 90%;
+    font-size: 14px;
+    text-indent: 1em;
+    padding: 0.5rem 0;
+    border: 1px solid #666;
+    border-radius: 0.25rem;
+    background: #ebeaea;
+    cursor: pointer;
+}
+.resumption-sec-td .resumption-text-info{
+    display: inline-block;
+    width: 90%;
+    height:40px;
+    font-size: 14px;
+    text-indent: 1em;
+    padding: 0.5rem 0;
+    border: 1px solid #666;
+    border-radius: 0.25rem;
+    background: #ebeaea;
+    // cursor: pointer;
+}
+
+.materialSolicitationRegister-btn-par{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.materialSolicitationRegister-btn-par button{
+    width: 200px;
+    font-size: 14px;
+    padding: 0.5rem 0;
+    background: cornflowerblue;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: 0;
+    margin-top: 1rem;
+}
+.popup-box{
+    width: 80%;
+    background: cornflowerblue;
+}
+.materialSolicitationRegister-popup-fir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+.materialSolicitationRegister-popup-fir div{
+    color: #fff;
+}
+.materialSolicitationRegister-popup-sec p,.materialSolicitationRegister-popup-sec button{
+    color: #000;
+    
+}
+.materialSolicitationRegister-popup-sec{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.materialSolicitationRegister-popup-sec p{
+    text-indent: 2em;
+    font-size: 14px;
+    padding: 0 0.5rem;
+}
+.materialSolicitationRegister-popup-sec button{
+    width: 80px;
+    background: cornflowerblue;
+    color: #fff;
+    border-radius: 0.25rem;
+    border: 0;
+    font-size: 14px;
+    padding: 0.25rem 0;
+    margin-top: 1rem;
+}
+.materialGrant-div{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

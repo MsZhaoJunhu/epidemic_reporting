@@ -1,0 +1,69 @@
+.taskList-top-divBtn{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+}
+.taskList-top-divBtn div{
+    width: 50%;
+    height: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.taskList-active-top{
+    color: rgb(40, 49, 173);
+    border-bottom: 1px solid rgb(40, 49, 173) !important;
+}
+.taskList-content-par{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+}
+.taskList-content-par-div{
+    width: 100%;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #999;
+}
+.taskList-fir-div{
+    display: flex;
+    justify-content: space-between;
+}
+.taskList-fir-div>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.taskList-fk{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    transform: translateX(-1rem);
+}
+.color1{
+    background-color: #9e0000;
+}
+.color2{
+    background-color: #1a41c2;
+}
+.color3{
+    background-color: #afc017;
+}
+.color4{
+    background-color: rgb(3, 206, 3);
+}
+.taskList-sec-div{
+    font-size: 14px;
+    margin: 0.5rem 0;
+    color: #333;
+}
+.taskList-last-div{
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+}

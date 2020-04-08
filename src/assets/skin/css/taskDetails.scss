@@ -1,0 +1,66 @@
+.resumption-table{
+    width:100%;
+    border-bottom: 1px solid #999;
+}
+.resumption-fir-td{
+    width: 30%;
+    text-align: center;
+    line-height: 3rem;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.resumption-sec-td input{
+    width: 90%;
+    font-size: 14px;
+    text-indent: 1em;
+    padding: 0.5rem 0;
+    border: 0;
+    border-radius: 0.25rem;
+    background: #fff;
+    cursor: pointer;
+}
+.addTask-button-td button{
+    float: right;
+    transform: translateX(-2rem);
+    border: 0;
+    background: #fff;
+}
+.addTask-button-pai-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.addTask-button-pai-div  button{
+    width: 120px;
+    font-size: 14px;
+    height: 2rem;
+    background: #fff;
+    border: 1px solid #999;
+}
+.addTask-button-pai-div .submitAddTask{
+    background: #464C5B;
+    color: #fff;
+}
+.task-details-td-flex input{
+    float: left;
+    width: 70%;
+}
+.task-details-td-flex>div{
+    float: right;
+    width: 30%;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.task-details-td-flex>div>div{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: darkorange;
+    margin-right: 0.25rem;
+}
+.task-details-td-flex>div>span{
+    color: #777;
+}

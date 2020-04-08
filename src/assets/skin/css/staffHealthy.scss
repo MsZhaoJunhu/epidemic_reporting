@@ -1,0 +1,279 @@
+.staffHealthy-table{
+    width:100%;
+    margin-top: 0.5rem;
+}
+.staffHealthy-fir-td,.staffHealthy-fir-span{
+    width: 30%;
+    text-align: center;
+    line-height: 3rem;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.staffHealthy-fir-span{
+    display: block;
+}
+.staffHealthy-firsec-td{
+    font-size: 14px;
+}
+.staffHealthy-sec-td input,.staffHealthy-sec-td textarea{
+    width: 90%;
+    font-size: 14px;
+    text-indent: 1em;
+    padding: 0.5rem 0;
+    border: 1px solid #666;
+    border-radius: 0.25rem;
+    background: #ebeaea;
+    cursor: pointer;
+}
+.staffHealthy-dis-td input{
+    background: #cacaca;
+}
+.staffHealthy-start::before{
+    content: '*';
+    color: red;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateX(-0.5rem);
+}
+.staffHealthy-sec-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.staffHealthy-file-box{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background: #3f6ed3;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.staffHealthy-file-box:active{
+    border-radius: 1rem;
+}
+.staffHealthy-file-box p{
+    text-align: center;
+    font-size: 14px;
+}
+.staffHealthy-a-par{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+.staffHealthy-a{
+    color: #5a80d1;
+    font-size: 14px;
+}
+.staffHealthy-btn-par{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.staffHealthy-btn-par button{
+    width: 80%;
+    // background: #3f6ed3;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+    padding: 0.75rem 0;
+    border-radius: 0.5rem;
+}
+.staffHealthy-p::before{
+    content: "+";
+    display: inline-block;
+    transform: translateX(-0.25rem);
+}
+.staffHealthy-fir-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(40, 116, 255) 0%,rgb(6, 186, 255) 100%);
+    padding: 1rem;
+}
+.staffHealthy-fir-div span{
+    font-size: 13px;
+}
+.staffHealthy-fir-div p,.staffHealthy-fir-div span{
+    color: #fff;
+}
+.staffHealthy-fir-div p{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.resumption-sec-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.resumption-file-box{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background: #3f6ed3;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.resumption-file-box:active{
+    border-radius: 1rem;
+}
+.resumption-file-box p{
+    text-align: center;
+    font-size: 14px;
+}
+.resumption-file-img-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.resumption-file-img-box img{
+    width: 96%;
+    display: inline-block;
+    margin: 0.25rem 0;
+}
+.resumption-preview-img-par{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.resumption-preview-img-par button{
+    width: 100px;
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    padding: 0.25rem 0;
+    border-radius: 0.25rem;
+}
+.resumption-preview-img-par .resumption-preview-delete{
+    background: red;
+    color: #fff;
+    border-color: red;
+}
+
+
+
+
+
+.staffHealthy-table{
+    display: flex;
+    flex-direction: column;
+}
+.staffHealthy-table>div{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    line-height: 3rem;
+    background: #fff;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.staffHealthy-table>div:first-child{
+    border-top: 1px solid rgb(235, 235, 235);
+}
+.staffHealthy-table>div>input{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+}
+.staffHealthy-fir-td{
+    width: auto;
+    text-align: left;
+    transform: translateX(1rem);
+}
+.staffHealthy-firsec-td,.staffHealthy-sec-td{
+    min-width: 50%;
+    width: auto;
+    max-width: 62%;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding-right: 1rem;
+}
+.staffHealthy-sec-td input{
+    width: auto;
+    padding: 0;
+    height: 40px;
+}
+.colorHuiSe{
+    color: #999;
+}
+.nut-actionsheet{
+    position: absolute;
+}
+.staffHealthy-special-par,.staffHealthy-special-submitPar{
+    flex-direction: column;
+    border-top: 1px solid rgb(235, 235, 235);
+    background: #fff;
+}
+.staffHealthy-special-submitPar{
+    padding-bottom: 1rem;
+}
+.staffHealthy-special-submitPar .staffHealthy-sec-div>div,
+.staffHealthy-special-submitPar .staffHealthy-sec-div .img-list{
+    width: 100%;
+    padding: 0 1rem;
+}
+.staffHealthy-special-marginTop{
+    margin-top: 0.5rem;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.staffHealthy-special-par div{
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+.staffHealthy-special-par>div:last-child{
+    padding: 0 1rem;
+}
+.staffHealthy-special-par>div:last-child textarea{
+    width: 100%;
+    border: 0;
+    background: #fff;
+    text-indent: 0;
+    padding: 0;
+}
+.staffHealthy-special-submitPar>span{
+    display: flex;
+    width: 100%;
+    padding: 0 1rem;
+    justify-content: space-between;
+}
+.staffHealthy-special-aPar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.staffHealthy-btn-par button{
+    width: 80%;
+    // background: #3f6ed3;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+    padding: 0.75rem 0;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, rgb(40, 116, 255) 0%,rgb(6, 186, 255) 100%);
+}
