@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@nutui/nutui": "^2.1.9",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.4.4",
     "html2canvas": "^1.0.0-rc.5",
     "qrcodejs2": "0.0.2",
